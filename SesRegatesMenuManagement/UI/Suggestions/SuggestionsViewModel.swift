@@ -9,7 +9,7 @@ import Foundation
 final class SuggestionsViewModel: ObservableObject {
     @Published var suggestionsMenu: [Dish]
     
-    init(suggestions: [Dish]) {
+    init(suggestions: [Dish] = []) {
         self.suggestionsMenu = suggestions
     }
     
