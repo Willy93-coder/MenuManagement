@@ -6,3 +6,7 @@
 //
 
 import Foundation
+struct MainMenu: Identifiable {
+    let id = UUID()
+    var menu: [String: [Dish]]
+}
