@@ -6,3 +6,7 @@
 //
 
 import Foundation
+struct SuggestionsMenu: Identifiable, Hashable {
+    let id = UUID()
+    var suggestions: [Dish]
+}
