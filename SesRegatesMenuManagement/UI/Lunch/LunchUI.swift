@@ -5,4 +5,10 @@
 //  Created by Willy on 28/6/24.
 //
 
-import Foundation
+import SwiftUI
+
+struct LunchUI: View {
+    var body: some View {
+        Text("Carta de comidas")
+    }
+}
