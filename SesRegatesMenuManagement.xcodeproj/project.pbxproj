@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -24,6 +24,16 @@
 		48D147372C2F2289003D85C3 /* LunchUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D147362C2F2289003D85C3 /* LunchUI.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		4880CC4D2CBED1AB00AFF3C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48D147152C2F2200003D85C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48D1471C2C2F2200003D85C3;
+			remoteInfo = SesRegatesMenuManagement;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		4843FE702C2F279100549DB6 /* DinnerMockupList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinnerMockupList.swift; sourceTree = "<group>"; };
 		4847D0BA2C39C4CE000B82B8 /* SuggestionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionsViewModel.swift; sourceTree = "<group>"; };
@@ -32,6 +42,7 @@
 		487DDA572C305E5600370EBA /* SuggestionsMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionsMenu.swift; sourceTree = "<group>"; };
 		487DDA592C3067CA00370EBA /* LunchMockupList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchMockupList.swift; sourceTree = "<group>"; };
 		487DDA5B2C3067EE00370EBA /* SuggestionMockupList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionMockupList.swift; sourceTree = "<group>"; };
+		4880CC492CBED1AB00AFF3C7 /* SesRegatesMenuManagementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SesRegatesMenuManagementTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		488E66C12CBC1BD100C3A8FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		48944BF82C374CDB002FEFA9 /* EditUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUI.swift; sourceTree = "<group>"; };
 		489C224A2CBECBBB007F8DC7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -46,7 +57,18 @@
 		48D147362C2F2289003D85C3 /* LunchUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchUI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4880CC4A2CBED1AB00AFF3C7 /* SesRegatesMenuManagementTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = SesRegatesMenuManagementTests; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
+		4880CC462CBED1AB00AFF3C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		48D1471A2C2F2200003D85C3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -81,6 +103,7 @@
 				489C224B2CBECC03007F8DC7 /* .gitignore */,
 				489C224A2CBECBBB007F8DC7 /* README.md */,
 				48D1471F2C2F2200003D85C3 /* SesRegatesMenuManagement */,
+				4880CC4A2CBED1AB00AFF3C7 /* SesRegatesMenuManagementTests */,
 				48D1471E2C2F2200003D85C3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				48D1471D2C2F2200003D85C3 /* SesRegatesMenuManagement.app */,
+				4880CC492CBED1AB00AFF3C7 /* SesRegatesMenuManagementTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -173,6 +197,29 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4880CC482CBED1AB00AFF3C7 /* SesRegatesMenuManagementTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4880CC512CBED1AB00AFF3C7 /* Build configuration list for PBXNativeTarget "SesRegatesMenuManagementTests" */;
+			buildPhases = (
+				4880CC452CBED1AB00AFF3C7 /* Sources */,
+				4880CC462CBED1AB00AFF3C7 /* Frameworks */,
+				4880CC472CBED1AB00AFF3C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4880CC4E2CBED1AB00AFF3C7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4880CC4A2CBED1AB00AFF3C7 /* SesRegatesMenuManagementTests */,
+			);
+			name = SesRegatesMenuManagementTests;
+			packageProductDependencies = (
+			);
+			productName = SesRegatesMenuManagementTests;
+			productReference = 4880CC492CBED1AB00AFF3C7 /* SesRegatesMenuManagementTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		48D1471C2C2F2200003D85C3 /* SesRegatesMenuManagement */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48D1472B2C2F2201003D85C3 /* Build configuration list for PBXNativeTarget "SesRegatesMenuManagement" */;
@@ -197,9 +244,13 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1540;
+				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
+					4880CC482CBED1AB00AFF3C7 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 48D1471C2C2F2200003D85C3;
+					};
 					48D1471C2C2F2200003D85C3 = {
 						CreatedOnToolsVersion = 15.4;
 					};
@@ -219,11 +270,19 @@
 			projectRoot = "";
 			targets = (
 				48D1471C2C2F2200003D85C3 /* SesRegatesMenuManagement */,
+				4880CC482CBED1AB00AFF3C7 /* SesRegatesMenuManagementTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4880CC472CBED1AB00AFF3C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		48D1471B2C2F2200003D85C3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -236,6 +295,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4880CC452CBED1AB00AFF3C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		48D147192C2F2200003D85C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -258,7 +324,51 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		4880CC4E2CBED1AB00AFF3C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48D1471C2C2F2200003D85C3 /* SesRegatesMenuManagement */;
+			targetProxy = 4880CC4D2CBED1AB00AFF3C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		4880CC4F2CBED1AB00AFF3C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.willytech.SesRegatesMenuManagementTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SesRegatesMenuManagement.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SesRegatesMenuManagement";
+			};
+			name = Debug;
+		};
+		4880CC502CBED1AB00AFF3C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.willytech.SesRegatesMenuManagementTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SesRegatesMenuManagement.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SesRegatesMenuManagement";
+			};
+			name = Release;
+		};
 		48D147292C2F2201003D85C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -439,6 +549,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4880CC512CBED1AB00AFF3C7 /* Build configuration list for PBXNativeTarget "SesRegatesMenuManagementTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4880CC4F2CBED1AB00AFF3C7 /* Debug */,
+				4880CC502CBED1AB00AFF3C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		48D147182C2F2200003D85C3 /* Build configuration list for PBXProject "SesRegatesMenuManagement" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
