@@ -34,6 +34,8 @@
 		487DDA5B2C3067EE00370EBA /* SuggestionMockupList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionMockupList.swift; sourceTree = "<group>"; };
 		488E66C12CBC1BD100C3A8FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		48944BF82C374CDB002FEFA9 /* EditUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUI.swift; sourceTree = "<group>"; };
+		489C224A2CBECBBB007F8DC7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		489C224B2CBECC03007F8DC7 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		48D1471D2C2F2200003D85C3 /* SesRegatesMenuManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SesRegatesMenuManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48D147202C2F2200003D85C3 /* SesRegatesMenuManagementApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SesRegatesMenuManagementApp.swift; sourceTree = "<group>"; };
 		48D147222C2F2200003D85C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -76,6 +78,8 @@
 		48D147142C2F2200003D85C3 = {
 			isa = PBXGroup;
 			children = (
+				489C224B2CBECC03007F8DC7 /* .gitignore */,
+				489C224A2CBECBBB007F8DC7 /* README.md */,
 				48D1471F2C2F2200003D85C3 /* SesRegatesMenuManagement */,
 				48D1471E2C2F2200003D85C3 /* Products */,
 			);
