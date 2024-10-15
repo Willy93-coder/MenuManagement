@@ -7,18 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4843FE712C2F279100549DB6 /* DinnerMockupList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4843FE702C2F279100549DB6 /* DinnerMockupList.swift */; };
+		4847D0BB2C39C4CE000B82B8 /* SuggestionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4847D0BA2C39C4CE000B82B8 /* SuggestionsViewModel.swift */; };
+		487DDA542C305E1C00370EBA /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487DDA532C305E1C00370EBA /* Dish.swift */; };
+		487DDA562C305E3000370EBA /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487DDA552C305E3000370EBA /* MainMenu.swift */; };
+		487DDA582C305E5600370EBA /* SuggestionsMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487DDA572C305E5600370EBA /* SuggestionsMenu.swift */; };
+		487DDA5A2C3067CA00370EBA /* LunchMockupList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487DDA592C3067CA00370EBA /* LunchMockupList.swift */; };
+		487DDA5C2C3067EE00370EBA /* SuggestionMockupList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487DDA5B2C3067EE00370EBA /* SuggestionMockupList.swift */; };
+		48944BF92C374CDB002FEFA9 /* EditUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48944BF82C374CDB002FEFA9 /* EditUI.swift */; };
 		48D147212C2F2200003D85C3 /* SesRegatesMenuManagementApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D147202C2F2200003D85C3 /* SesRegatesMenuManagementApp.swift */; };
 		48D147232C2F2200003D85C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D147222C2F2200003D85C3 /* ContentView.swift */; };
 		48D147252C2F2201003D85C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48D147242C2F2201003D85C3 /* Assets.xcassets */; };
 		48D147282C2F2201003D85C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48D147272C2F2201003D85C3 /* Preview Assets.xcassets */; };
+		48D147302C2F2251003D85C3 /* SuggestionsUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D1472F2C2F2251003D85C3 /* SuggestionsUI.swift */; };
+		48D147352C2F227C003D85C3 /* DinnerUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D147342C2F227C003D85C3 /* DinnerUI.swift */; };
+		48D147372C2F2289003D85C3 /* LunchUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D147362C2F2289003D85C3 /* LunchUI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4843FE702C2F279100549DB6 /* DinnerMockupList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinnerMockupList.swift; sourceTree = "<group>"; };
+		4847D0BA2C39C4CE000B82B8 /* SuggestionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionsViewModel.swift; sourceTree = "<group>"; };
+		487DDA532C305E1C00370EBA /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
+		487DDA552C305E3000370EBA /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		487DDA572C305E5600370EBA /* SuggestionsMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionsMenu.swift; sourceTree = "<group>"; };
+		487DDA592C3067CA00370EBA /* LunchMockupList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchMockupList.swift; sourceTree = "<group>"; };
+		487DDA5B2C3067EE00370EBA /* SuggestionMockupList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionMockupList.swift; sourceTree = "<group>"; };
+		488E66C12CBC1BD100C3A8FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		48944BF82C374CDB002FEFA9 /* EditUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUI.swift; sourceTree = "<group>"; };
 		48D1471D2C2F2200003D85C3 /* SesRegatesMenuManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SesRegatesMenuManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48D147202C2F2200003D85C3 /* SesRegatesMenuManagementApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SesRegatesMenuManagementApp.swift; sourceTree = "<group>"; };
 		48D147222C2F2200003D85C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		48D147242C2F2201003D85C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48D147272C2F2201003D85C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		48D1472F2C2F2251003D85C3 /* SuggestionsUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionsUI.swift; sourceTree = "<group>"; };
+		48D147342C2F227C003D85C3 /* DinnerUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinnerUI.swift; sourceTree = "<group>"; };
+		48D147362C2F2289003D85C3 /* LunchUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchUI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +55,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		487DDA522C305DFE00370EBA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				487DDA532C305E1C00370EBA /* Dish.swift */,
+				487DDA552C305E3000370EBA /* MainMenu.swift */,
+				487DDA572C305E5600370EBA /* SuggestionsMenu.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		48944BF72C374CA0002FEFA9 /* Edit */ = {
+			isa = PBXGroup;
+			children = (
+				48944BF82C374CDB002FEFA9 /* EditUI.swift */,
+			);
+			path = Edit;
+			sourceTree = "<group>";
+		};
 		48D147142C2F2200003D85C3 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +92,9 @@
 		48D1471F2C2F2200003D85C3 /* SesRegatesMenuManagement */ = {
 			isa = PBXGroup;
 			children = (
+				488E66C12CBC1BD100C3A8FF /* Info.plist */,
+				48D147382C2F2541003D85C3 /* Domain */,
+				48D1472E2C2F220F003D85C3 /* UI */,
 				48D147202C2F2200003D85C3 /* SesRegatesMenuManagementApp.swift */,
 				48D147222C2F2200003D85C3 /* ContentView.swift */,
 				48D147242C2F2201003D85C3 /* Assets.xcassets */,
@@ -65,6 +109,61 @@
 				48D147272C2F2201003D85C3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		48D1472E2C2F220F003D85C3 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				48944BF72C374CA0002FEFA9 /* Edit */,
+				48D147332C2F226E003D85C3 /* Lunch */,
+				48D147322C2F2265003D85C3 /* Dinner */,
+				48D147312C2F2257003D85C3 /* Suggestions */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		48D147312C2F2257003D85C3 /* Suggestions */ = {
+			isa = PBXGroup;
+			children = (
+				48D1472F2C2F2251003D85C3 /* SuggestionsUI.swift */,
+				4847D0BA2C39C4CE000B82B8 /* SuggestionsViewModel.swift */,
+			);
+			path = Suggestions;
+			sourceTree = "<group>";
+		};
+		48D147322C2F2265003D85C3 /* Dinner */ = {
+			isa = PBXGroup;
+			children = (
+				48D147342C2F227C003D85C3 /* DinnerUI.swift */,
+			);
+			path = Dinner;
+			sourceTree = "<group>";
+		};
+		48D147332C2F226E003D85C3 /* Lunch */ = {
+			isa = PBXGroup;
+			children = (
+				48D147362C2F2289003D85C3 /* LunchUI.swift */,
+			);
+			path = Lunch;
+			sourceTree = "<group>";
+		};
+		48D147382C2F2541003D85C3 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				48D147402C2F25F5003D85C3 /* Mockups */,
+				487DDA522C305DFE00370EBA /* Models */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		48D147402C2F25F5003D85C3 /* Mockups */ = {
+			isa = PBXGroup;
+			children = (
+				4843FE702C2F279100549DB6 /* DinnerMockupList.swift */,
+				487DDA592C3067CA00370EBA /* LunchMockupList.swift */,
+				487DDA5B2C3067EE00370EBA /* SuggestionMockupList.swift */,
+			);
+			path = Mockups;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +236,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48D147372C2F2289003D85C3 /* LunchUI.swift in Sources */,
+				4843FE712C2F279100549DB6 /* DinnerMockupList.swift in Sources */,
+				487DDA542C305E1C00370EBA /* Dish.swift in Sources */,
+				4847D0BB2C39C4CE000B82B8 /* SuggestionsViewModel.swift in Sources */,
+				487DDA562C305E3000370EBA /* MainMenu.swift in Sources */,
+				487DDA582C305E5600370EBA /* SuggestionsMenu.swift in Sources */,
+				48D147302C2F2251003D85C3 /* SuggestionsUI.swift in Sources */,
 				48D147232C2F2200003D85C3 /* ContentView.swift in Sources */,
+				48944BF92C374CDB002FEFA9 /* EditUI.swift in Sources */,
+				487DDA5A2C3067CA00370EBA /* LunchMockupList.swift in Sources */,
 				48D147212C2F2200003D85C3 /* SesRegatesMenuManagementApp.swift in Sources */,
+				48D147352C2F227C003D85C3 /* DinnerUI.swift in Sources */,
+				487DDA5C2C3067EE00370EBA /* SuggestionMockupList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,11 +382,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SesRegatesMenuManagement/Preview Content\"";
+				DEVELOPMENT_TEAM = T7DNKZJ8CN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SesRegatesMenuManagement/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -300,11 +411,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SesRegatesMenuManagement/Preview Content\"";
+				DEVELOPMENT_TEAM = T7DNKZJ8CN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SesRegatesMenuManagement/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
