@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct SesRegatesMenuManagementApp: App {
+struct MenuManagementApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
